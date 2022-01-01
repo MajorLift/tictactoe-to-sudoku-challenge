@@ -11,6 +11,6 @@
   2. Refactor to use **Zustand** and **Immler** to handle global state.
 ## IV. Online Multiplayer
   1. Write **Async Middleware** and deploy **REST API** to implement turn-based gameplay.
-  2. Refactor to use **GraphQL Subscriptions** instead.
+  2. Refactor to use **GraphQL Subscriptions** deployed over **AWS Lambda** instead.
   3. Write **WebSockets** event handlers and emitters for real-time cursor position sharing.
   4. Add **WebRTC** video chat + screen sharing functionality for interactive experience. 
