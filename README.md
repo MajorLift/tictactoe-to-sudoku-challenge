@@ -6,7 +6,7 @@
 ## II. Sudoku
   1. Using TypeScript, refactor into **Generic Components** and generalize to implement any Sudoku game of arbitrary order (dimension).
   2. Write **Backtracking Algorithm** and **Custom Hooks** to handle game logic. 
-  3. Rewrite into two-player competitive game. Optimize solver by having it switch mid-game from verifying the legality of each player's moves (**NP**) to memoizing and updating the set of remaining legal moves (**P**) at each turn.
+  3. Rewrite into two-player competitive game. Write solver so that it switches mid-game from verifying the legality of each player's moves (**NP**) to memoizing and updating the set of remaining legal moves (**P**) at each turn.
   4. Generalize for n players.
 ## III. Global State Management
   1. Refactor to use **Redux** and **RTK** to handle global state.
