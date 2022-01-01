@@ -1,4 +1,4 @@
-# React Endgame: Tic-Tac-Toe to Sudoku
+# React Endgame: Tic-Tac-Toe to Sudoku Challenge!
 ## I. Tic-Tac-Toe
   1. Implement Tic-Tac-Toe game using React **class components**.
   2. Refactor to use **function components** and **useState**, **useEffect** hooks.
