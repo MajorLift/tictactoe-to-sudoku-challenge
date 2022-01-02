@@ -4,15 +4,18 @@
   2. Refactor to use **function components** and **useState**, **useEffect** hooks.
   3. Refactor to use **Context API** and **useReducer**.
 #### II. Sudoku
-  1. Using TypeScript, refactor into **Generic Components** and generalize to implement any Sudoku game of arbitrary order (dimension).
-  2. Write **Backtracking Algorithm** and **Custom Hooks** to handle game logic. 
-  3. Rewrite into two-player competitive game. Write solver so that it switches mid-game from verifying the legality of each player's moves (**NP**) to memoizing and updating the set of remaining legal moves (**P**) at each turn.
-  4. Generalize for n players.
+  1. Using TypeScript, refactor Board and Box as **Generic Components** to implement existing Sudoku games with nine 3x3 blocks.
+  2. Write automated solver using **Backtracking** with **Forward Checking**.
+  3. Rewrite into two-player competitive game. Write checker to verify the legality of the players' moves at each turn (**NP**), and write an optimized solver that memoizes and traverses a pruned search tree by performing full **Look-Ahead (P)**.
+  4. Write well-posed (unique solution) Sudoku game generator with no redundant hints.
+  5. Generalize components to support any valid Sudoku game of arbitrary order n.
+  6. (Generalize for n players.)
+  7. (Generalize for rectangular Sudoku.)
 #### III. Global State Management
   1. Refactor to use **Redux** and **RTK** to handle global state.
   2. Refactor to use **Zustand** and **Immler** to handle global state.
 #### IV. Online Multiplayer
-  1. Write **Async Middleware** and deploy **REST API** to implement turn-based gameplay.
-  2. Refactor to use **GraphQL Subscriptions** deployed over **AWS Lambda** instead.
-  3. Write **WebSockets** event handlers and emitters for real-time cursor position sharing.
-  4. Add **WebRTC** video chat + screen sharing functionality for interactive experience. 
+  1. Write **Async Middleware** and deploy **REST API** to implement "correspondence chess" style gameplay.
+  3. Write **WebSockets** pub/sub message streaming logic and deploy over **AWS API Gateway** and **Lambda** for real-time gameplay.
+  3. Refactor to use **GraphQL Subscriptions** with **AWS AppSync** instead.
+  4. Add **WebRTC** video chat and **WebSockets** cursor position sharing for interactive experience. 
