@@ -18,5 +18,5 @@
   1. Write **Async Middleware** in the frontend and deploy a **REST API** to implement "correspondence chess" style gameplay.
   2. Using **WebSockets**, stream pub/sub messages over **AWS API Gateway** and **AWS Lambda** for real-time remote gameplay.
   3. Refactor to use **GraphQL Subscriptions** with **AWS AppSync** instead.
-  4. Refactor and scale to support multiple game room instances, each with multiple(>2) players and spectators by deploying a message broker like **RabbitMQ** in a distributed architecture. 
+  4. Refactor and scale to support multiple game room instances, each with multiple(>2) players and spectators by deploying a messaging system like **Apache Kafka** or **RabbitMQ**.
   5. Add **WebRTC** video chat and WebSockets cursor position sharing for a more social interactive experience. 
