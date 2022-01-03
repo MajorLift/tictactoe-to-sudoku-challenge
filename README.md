@@ -13,6 +13,7 @@
   6. Generalize components to support any valid Sudoku game of arbitrary order n.
   7. Generalize for n players.
   8. (Generalize for rectangular Sudoku.)
+  9. (Convert into Checkers. Chess or Go even! Take an open source engine and implement any grid-based board game you desire.)
 #### III. Online Multiplayer: *Backend - Event-Driven Architecture, Microservices*
   1. Write **Async Middleware** in the frontend and deploy a **REST API** to implement "correspondence chess" style gameplay.
   2. Using **WebSockets**, stream pub/sub messages over **AWS API Gateway** and **AWS Lambda** for real-time remote gameplay.
