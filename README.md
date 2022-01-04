@@ -17,6 +17,6 @@
 #### III. Online Multiplayer: *Backend - Event-Driven Architecture, Microservices*
   1. Write **Async Middleware** in the frontend and deploy a **REST API** to implement "correspondence chess" style gameplay.
   2. Using **WebSockets**, stream pub/sub messages over **AWS API Gateway** and **AWS Lambda** for real-time remote gameplay.
-  3. Refactor to use **GraphQL Subscriptions** with **AWS AppSync** instead.
+  3. Refactor to use **GraphQL Subscriptions** with **AWS AppSync** instead, and implement *time attack* mode, where the game is no longer turn-based, and instead the players compete to fill as many squares as quickly as possible. Avoid race conditions (heh).
   4. Refactor and scale to support multiple game room instances, each with multiple(>2) players and spectators by deploying a messaging system like **Apache Kafka** or **RabbitMQ**.
   5. Add **WebRTC** video chat and WebSockets cursor position sharing for a more social interactive experience. 
