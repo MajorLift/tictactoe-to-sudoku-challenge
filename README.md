@@ -14,7 +14,7 @@
   7. Generalize for n players.
   8. (Generalize for rectangular Sudoku.)
   9. (Reuse the components to implement Checkers. Chess or Go even! Take an open source engine and go wild with any grid-based board game you desire.)
-#### III. Online Multiplayer: *Backend - Event-Driven Architecture, Microservices*
+#### III. Online Multiplayer: *Backend - Event-Driven Architecture, Microservices, Concurrency*
   1. Write **Async Middleware** in the frontend and deploy a **REST API** to implement "correspondence chess" style gameplay.
   2. Using **WebSockets**, stream pub/sub messages over **AWS API Gateway** and **AWS Lambda** for real-time remote gameplay.
   3. Refactor to use **GraphQL Subscriptions** with **AWS AppSync** instead, and implement *time attack* mode, where the players don't take turns, but compete to fill as many squares as quickly as possible. Avoid race conditions.
